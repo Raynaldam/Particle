@@ -1,0 +1,15 @@
+.footer {
+    background: #282828;
+    color: white;
+    padding: 8%;
+}
+.footer footer p {
+    margin-top: 2%;
+    line-height: 50px;
+    font-size: 24pt;
+    font-style: italic;
+}
+.footer footer p mark {
+    background: #ec2e2e;
+    color: white;
+}

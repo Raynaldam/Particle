@@ -1,0 +1,91 @@
+@font-face {
+    font-family: newFont;
+    src: url('../fonts/SF-Compact-Text-Medium.otf');
+}
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    scroll-behavior: smooth;
+}
+.navbar {
+    background: white;
+    box-shadow: 0 0 4px 0;
+    padding: 2.5%;
+    font-family: newFont;
+}
+.navbar ul {
+	list-style: none;
+    overflow: hidden;
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin-top: .6%;
+	margin-right: 2%;
+    margin-left: 2.5%;
+    font-size: 16pt;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navbar ul li :link {
+    text-decoration: none;
+    color:black;
+}
+.navbar ul li:hover {
+    border-bottom: 2.5px solid #0dbfff;
+}
+#active {
+    border-bottom: 2.5px solid #0dbfff;
+}
+.navbar ul li img#logo-particle {
+    width: 12%;
+    height: 22%;
+    margin-top: -4.7%;
+    margin-left: -18.5%;
+    position: absolute;
+}
+.navbar ul li img#search-icon {
+    width: 4%;
+    height: 8%;
+    margin-top: -2.5%;
+    margin-left: 15.5%;
+    position: absolute;
+}
+.navbar .classes-category {
+    padding: 10%;
+}
+.navbar .classes-category p a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14pt;
+    color:#ec2e2e;
+}
+.navbar .classes-category .software-engineer, .navbar .classes-category .product-designer {
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid #0dbfff;
+}
+.navbar ul li#classes:hover > .classes-category {
+    display: block;
+} 
+.navbar ul li#search input#search {
+    display: none;
+    position: absolute;
+    margin-top: -2%;
+    padding: 1% 1%;
+    border-radius: 10px;
+    border:1px solid #0dbfff;
+    outline:none;
+    color: gray;
+}
+.navbar ul li#search:hover >  input#search {
+    display: block;
+    margin-left: -30%;
+    width: 50%;
+}
+.navbar ul li#search:hover >  img#search-icon {
+    margin-left: -35%;
+    margin-top: -2.5%;
+}

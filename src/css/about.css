@@ -1,0 +1,33 @@
+.about {
+    padding: 10% 15%;
+}
+.about .logo img#logo-about {
+    width:20%;
+    margin-left: -75%;
+}
+.about .logo .vertical-line {
+    border:1px solid #0dbfff;
+    height: 350px;
+    width: .5%;
+    margin-top: -28%;
+    background: #0dbfff;
+    margin-left: 25%;
+    position: absolute;
+}
+.about .description {
+    text-align: justify;
+    /* background: black; */
+    margin-top: -22%;
+    margin-left: 28%;
+    width: 45%;
+    position: absolute;
+}
+.about .description p{
+    font-size: 20pt;
+    line-height: 50px;
+    font-weight: 600;
+}
+.about .description p mark {
+    background: #ec2e2e;
+    color: white;
+}

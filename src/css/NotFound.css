@@ -1,0 +1,15 @@
+@font-face {
+    font-family: newFont;
+    src: url('../fonts/SF-Compact-Text-Medium.otf');
+}
+.notFound .big-title {
+    padding: 10% 20% 3% 20%;
+    text-align: justify;
+}
+.notFound .big-title p#big-title {
+    line-height: 80px;
+    font-family: newFont;
+    font-size: 38pt;
+    color: gray;
+    font-weight: bold;
+}

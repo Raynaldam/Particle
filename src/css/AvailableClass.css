@@ -1,0 +1,241 @@
+@font-face {
+    font-family: newFont;
+    src: url('../fonts//SF-Compact-Text-Medium.otf');
+}
+.available-title {
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 38%;
+    width: 25.5%;
+    padding-bottom: 1%;
+    border-bottom: 2.5px solid #0dbfff;
+}
+.available-title p {
+    font-family: newFont;
+    font-size: 30pt;
+    color: #ec2e2e;
+}
+.all-class .software-engineer {
+    border:2.5px solid #0dbfff;
+    border-radius: 10px;
+    margin-left: 17%;
+    width: 20%;
+    padding: 1% 0 0 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.all-class .software-engineer p {
+    text-align: left;
+}
+.all-class .software-engineer .image {
+    border-bottom: 2.5px solid #0dbfff;
+}
+.all-class .software-engineer .description {
+    padding: 8% 5%;
+}
+.all-class .software-engineer .description p#title {
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+.all-class .software-engineer .description p#description {
+    font-size: 24pt;
+    color:#ec2e2e;
+}
+.all-class .software-engineer .description p#date  {
+    margin-top: 15%;
+    font-weight: bold;
+}
+.all-class .software-engineer .description .limit-seat p#seat  {
+    font-size: 10pt;
+    color:#ec2e2e;
+}
+.all-class .software-engineer .description .limit-seat {
+    margin-left: 30%;
+    margin-top: -16%;
+    width: 60%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid black;
+}
+.all-class .software-engineer .description .price {
+    margin-left: 30%;
+    width: 60%;
+    margin-top: 2%;
+}
+.all-class .software-engineer .description .price p#number {
+    font-size: 10pt;
+    text-align: center;
+    color:#ec2e2e;
+}
+.all-class .software-engineer .details {
+    margin-top: 5%;
+    background: #0dbfff;
+    padding: 10% 30%;
+}
+.all-class .software-engineer .details p#details a {
+    font-size: 16pt;
+    color: white;
+    margin-left: 20%;
+    text-decoration: none;
+}
+.all-class .software-engineer:hover {
+    border:2.5px solid #ec2e2e;
+    cursor: pointer;
+}
+.all-class .software-engineer:hover > .image {
+    border-bottom: 3px solid #ec2e2e;
+}
+.all-class .software-engineer:hover > .details {
+    background: #ec2e2e;
+}
+
+.all-class .product-designer {
+    border:2.5px solid #0dbfff;
+    border-radius: 10px;
+    margin-left: 40%;
+    width: 20%;
+    padding: 1% 0 0 0;
+    margin-bottom: 5%;
+    margin-top: -44.5%;
+}
+.all-class .product-designer p {
+    text-align: left;
+}
+.all-class .product-designer .image {
+    border-bottom: 2.5px solid #0dbfff;
+}
+.all-class .product-designer .description {
+    padding: 8% 5%;
+}
+.all-class .product-designer .description p#title {
+    margin-bottom: 10%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.all-class .product-designer .description p#description {
+    font-size:20pt;
+    color:#ec2e2e;
+}
+.all-class .product-designer .description p#date  {
+    margin-top: 18.5%;
+    font-weight: bold;
+}
+.all-class .product-designer .description .limit-seat p#seat  {
+    font-size: 10pt;
+    color:#ec2e2e;
+}
+.all-class .product-designer .description .limit-seat {
+    margin-left: 30%;
+    margin-top: -16%;
+    width: 60%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid black;
+}
+.all-class .product-designer .description .price {
+    margin-left: 30%;
+    width: 60%;
+    margin-top: 2%;
+}
+.all-class .product-designer .description .price p#number {
+    font-size: 10pt;
+    text-align: center;
+    color:#ec2e2e;
+}
+.all-class .product-designer .details {
+    margin-top: 5%;
+    background: #0dbfff;
+    padding: 10% 30%;
+}
+.all-class .product-designer .details p#details a {
+    font-size: 16pt;
+    color: white;
+    margin-left: 20%;
+    text-decoration: none;
+}
+.all-class .product-designer:hover {
+    border:2.5px solid #ec2e2e;
+    cursor: pointer;
+}
+.all-class .product-designer:hover > .image {
+    border-bottom: 3px solid #ec2e2e;
+}
+.all-class .product-designer:hover > .details {
+    background: #ec2e2e;
+}
+
+.all-class .business-analyst {
+    border:2.5px solid #0dbfff;
+    border-radius: 10px;
+    margin-left: 63%;
+    width: 20%;
+    padding: 1% 0 0 0;
+    margin-bottom: 5%;
+    margin-top: -44.4%;
+}
+.all-class .business-analyst p {
+    text-align: left;
+}
+.all-class .business-analyst .image {
+    border-bottom: 2.5px solid #0dbfff;
+}
+.all-class .business-analyst .image img#business {
+    width: 90%;
+    margin:4.5% 0;
+}
+.all-class .business-analyst .description {
+    padding: 8% 5%;
+}
+.all-class .business-analyst .description p#title {
+    margin-bottom: 10%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.all-class .business-analyst .description p#description {
+    font-size:22pt;
+    color:#ec2e2e;
+}
+.all-class .business-analyst .description p#date  {
+    margin-top: 30.2%;
+    font-weight: bold;
+}
+.all-class .business-analyst .description .limit-seat p#seat  {
+    font-size: 10pt;
+    color:#ec2e2e;
+}
+.all-class .business-analyst .description .limit-seat {
+    margin-left: 30%;
+    margin-top: -16%;
+    width: 60%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid black;
+}
+.all-class .business-analyst .description .price {
+    margin-left: 30%;
+    width: 60%;
+    margin-top: 2%;
+}
+.all-class .business-analyst .description .price p#number {
+    font-size: 10pt;
+    text-align: center;
+    color:#ec2e2e;
+}
+.all-class .business-analyst .details {
+    margin-top: 5%;
+    background: #0dbfff;
+    padding: 10% 30%;
+}
+.all-class .business-analyst .details p#details a {
+    font-size: 16pt;
+    text-decoration: none;
+    color: white;
+    margin-left: 20%;
+}
+.all-class .business-analyst:hover {
+    border:2.5px solid #ec2e2e;
+    cursor: pointer;
+}
+.all-class .business-analyst:hover > .image {
+    border-bottom: 3px solid #ec2e2e;
+}
+.all-class .business-analyst:hover > .details {
+    background: #ec2e2e;
+}

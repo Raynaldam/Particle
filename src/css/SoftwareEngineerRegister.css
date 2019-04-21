@@ -1,0 +1,42 @@
+@font-face {
+    font-family: newFont;
+    src: url('../fonts/SF-Compact-Text-Medium.otf');
+}
+.software-engineer-register .banner {
+    background: #0dbfff;
+    padding: 5% 20% 5% 5%;
+}
+.software-engineer-register .banner .title {
+    /* background: black; */
+    width: 70%;
+    padding: 5% 0;
+    border-right: 1px solid white;
+}
+.software-engineer-register .banner .title p#title {
+    font-family: newFont;
+    color: white;
+    font-size: 46pt;
+    text-align: left;
+}
+.software-engineer-register .banner .title p#red-label {
+    text-align: justify;
+    margin-top: 5%;
+    background: #ec2e2e;
+    color: white;
+    width: 20.9%;
+    padding: 1% 2%;
+    border-radius: 10px;
+    font-size: 18pt;
+}
+.software-engineer-register .banner .image {
+    position: absolute;
+    margin-top: -23%;
+    /* background: black; */
+    margin-left: 53%;
+    width: 42%;
+    height: 48%;
+    padding: .5% 0;
+}
+.software-engineer-register .banner .image img#software-engineer-logo {
+    width: 50%;
+}

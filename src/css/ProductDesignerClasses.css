@@ -1,0 +1,144 @@
+@font-face {
+    font-family: newFont;
+    src: url('../fonts/SF-Compact-Text-Medium.otf');
+}
+.product-designer-classes .banner {
+    background: #0dbfff;
+    padding: 12.5% 20%;
+}
+.product-designer-classes .banner p  {
+    text-align: left;
+    color: white;
+    font-size: 17pt;
+    line-height: 40px;
+    font-family: newFont;
+}
+.product-designer-classes .banner p#title {
+    font-size: 50pt;
+    margin-bottom: 5%;
+}
+.product-designer-classes .banner p#description {
+    margin-top: 2%;
+}
+.product-designer-classes .banner p span#red {
+    color: #ec2e2e;
+}
+.product-designer-classes .banner p mark {
+    background: #ec2e2e;
+    color: white;
+}
+.product-designer-classes .banner button#get-class {
+    padding: 1% 2%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: white;
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: -30%;
+    font-size: 12pt;
+    font-weight: bold;
+    cursor: pointer;
+}
+.product-designer-classes .banner button#get-class:hover {
+    background: #0dbfff;
+    color: white;
+}
+.product-designer-classes .classes {
+    padding: 10% 20%;
+}
+.product-designer-classes .classes .title {
+    border-bottom: 2.5px solid #0dbfff;
+    text-align: center;
+    margin-left: 35%;
+    width: 30%;
+    padding-bottom: 2%;
+}
+.product-designer-classes .classes .title p#title {
+    color:#ec2e2e;
+    font-size: 40pt;
+    font-family: newFont;
+    font-weight: bold;
+}
+.product-designer-classes .classes .classes-description {
+    margin-top: 5%;
+}
+.product-designer-classes .classes .classes-description p#description {
+    font-size: 16pt;
+    font-family: newFont;
+}
+.product-designer-classes .product-designer {
+    border:2.5px solid #0dbfff;
+    border-radius: 10px;
+    margin-left: 17%;
+    width: 20%;
+    padding: 1% 0 0 0;
+    margin-bottom: 5%;
+}
+.product-designer-classes .product-designer p {
+    text-align: left;
+    font-family: newFont;
+}
+.product-designer-classes .product-designer .image {
+    border-bottom: 2.5px solid #0dbfff;
+}
+.product-designer-classes .product-designer .description {
+    padding: 8% 5%;
+}
+.product-designer-classes .product-designer .description p#title {
+    margin-bottom: 10%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.product-designer-classes .product-designer .description p#description {
+    font-size:20pt;
+    color:#ec2e2e;
+}
+.product-designer-classes .product-designer .description p#date  {
+    margin-top: 10%;
+    font-weight: bold;
+}
+.product-designer-classes .product-designer .description .limit-seat p#seat  {
+    font-size: 9.5pt;
+    color:#ec2e2e;
+    text-align: center;
+}
+.product-designer-classes .product-designer .description .limit-seat {
+    margin-left: 30%;
+    margin-top: -16%;
+    width: 60%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid black;
+}
+.product-designer-classes .product-designer .description .price {
+    margin-left: 30%;
+    width: 60%;
+    margin-top: 2%;
+}
+.product-designer-classes .product-designer .description .price p#number {
+    font-size: 10pt;
+    text-align: center;
+    color:#ec2e2e;
+}
+.product-designer-classes .product-designer .details {
+    margin-top: 5%;
+    background: #0dbfff;
+    padding: 10% 30%;
+}
+.product-designer-classes .product-designer .details p#details {
+    font-size: 16pt;
+    margin-left: 20%;
+}
+.product-designer-classes .product-designer .details p#details a {
+    color: white;
+    text-decoration: none;
+}
+.product-designer-classes .product-designer:hover {
+    border:2.5px solid #ec2e2e;
+    cursor: pointer;
+}
+.product-designer-classes .product-designer:hover > .image {
+    border-bottom: 3px solid #ec2e2e;
+}
+.product-designer-classes .product-designer:hover > .details {
+    background: #ec2e2e;
+}

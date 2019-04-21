@@ -1,0 +1,162 @@
+@font-face {
+    font-family: newFont;
+    src: url('../fonts/SF-Compact-Text-Medium.otf');
+}
+.register-seat .form {
+    padding: 1% 5%;
+    text-align: justify;
+}
+.register-seat .form td {
+    font-family: newFont;
+}
+.register-seat .form .title {
+    margin-top: 5%;
+}
+.register-seat .form .title p#title {
+    font-size: 36pt;
+    font-family: newFont;
+}
+.register-seat .form .title p mark#seat {
+    background: #0dbfff;
+    color: white;
+}
+.register-seat .form .name {
+    margin-top: 2%;
+}
+.register-seat .form .name td {
+    font-size: 14pt;
+}
+.register-seat .form .name td input {
+    margin-top: 5%;
+    border:2px solid #0dbfff;
+    padding: 5% 5%;
+}
+.register-seat .form .email {
+    margin-top: 1%;
+}
+.register-seat .form .email td {
+    font-size: 14pt;
+}
+.register-seat .form .email td input {
+    margin-top: 4%;
+    border:2px solid #0dbfff;
+    padding: 5% 5%;
+}
+.register-seat .form .phone-number {
+    margin-top: 1%;
+}
+.register-seat .form .phone-number td {
+    font-size: 14pt;
+}
+.register-seat .form .phone-number td input {
+    margin-top: 4%;
+    border:2px solid #0dbfff;
+    padding: 5% 5%;
+}
+.register-seat .form .job-title {
+    margin-top: 1%;
+}
+.register-seat .form .job-title td {
+    font-size: 14pt;
+}
+.register-seat .form .job-title td input {
+    margin-top: 4%;
+    border:2px solid #0dbfff;
+    padding: 5% 5%;
+}
+.register-seat .form .company {
+    margin-top: 1%;
+}
+.register-seat .form .company td {
+    font-size: 14pt;
+}
+.register-seat .form .company td input {
+    margin-top: 4%;
+    border:2px solid #0dbfff;
+    padding: 5% 5%;
+}
+.register-seat .form .class-date {
+    margin-top: 1%;
+}
+.register-seat .form .class-date td {
+    font-size: 14pt;
+}
+.register-seat .form .class-date td input {
+    margin-top: 4%;
+    border:2px solid #0dbfff;
+    padding: 5% 5%;
+}
+.register-seat .form .class-location {
+    margin-top: 1%;
+}
+.register-seat .form .class-location td {
+    font-size: 14pt;
+}
+.register-seat .form .class-location td textarea {
+    margin-top: 4%;
+    border:2px solid #0dbfff;
+    padding: 5% 5%;
+    width: 250%;
+    height: 50px;
+}
+.register-seat .class-tutor {
+    margin-top: 2%;
+    /* background: black; */
+}
+.register-seat .class-tutor p#title {
+    font-family: newFont;
+    font-size: 16pt;
+}
+.register-seat .class-tutor .image img {
+    width: 20%;
+    margin-left: -4%;
+    margin-top: -4%;
+    z-index: -1;
+    position: absolute;
+}
+.register-seat .class-tutor .tutor-description {
+    /* background: black; */
+    margin-left: 15%;
+    margin-top: 4%;
+}
+.register-seat .class-tutor .tutor-description p#name {
+    font-family: newFont;
+    font-size: 16pt;
+}
+.register-seat .class-tutor .tutor-description p#job-title {
+    font-family: newFont;
+    font-size: 14pt;
+    margin-top: 1%;
+}
+.register-seat .payment-method {
+    margin-top: 8%;
+}
+.register-seat .payment-method td p {
+    font-family: newFont;
+    font-size: 16pt;
+    margin-bottom: 10%;
+}
+.register-seat .payment-method td mark {
+    background: #ec2e2e;
+    color:white;
+    padding: 2% 4%;
+    margin-left: 10%;
+}
+.register-seat .register {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.register-seat .register button#register-seat {
+    background: #0dbfff;
+    border: 1px solid #0dbfff;
+    padding: 1% 4%;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    font-family: newFont;
+}
+.register-seat .register button#register-seat:hover {
+    background: #ec2e2e;
+    border:1px solid #ec2e2e;
+    cursor: pointer;
+}

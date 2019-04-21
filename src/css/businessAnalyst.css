@@ -1,0 +1,170 @@
+@font-face {
+    font-family: compactTextRegular;
+    src: url('../fonts/SF-Compact-Text-Regular.otf');
+    font-family: compactTextHeavy;
+    src: url('../fonts/sf-compact-text-italic-58646f7cbab10.otf');
+}
+.business-analyst-class .description {
+    width: 37%;
+    border-right: 2.5px solid #0dbfff;
+    border-bottom: 2.5px solid #0dbfff;
+    padding: 5% 10%;
+    font-family: compactTextRegular;
+}
+.business-analyst-class .description p#title {
+    font-size: 36pt;
+    text-align: left;
+    font-weight: bold;
+}
+.business-analyst-class .description p#description {
+    text-align: left;
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 10px;
+    color: white;
+    background: #ec2e2e;
+    width: 22%;
+}
+.business-analyst-class .description p#address {
+    margin-top: -5.5%;
+    margin-left: 8%;
+    font-weight: bold;
+    text-align: left;
+}
+.business-analyst-class .description img#maps {
+    margin-left: -95%;
+    margin-top: 4%;
+}
+.business-analyst-class .image {
+    margin-top: -26%;
+    margin-left: 57.1%;
+    width: 22.9%;
+    height: 26.5%;
+    padding: 6.5% 10%;
+    position: absolute;   
+    border-bottom: 2.5px solid #0dbfff;
+}
+.business-analyst-class .image img {
+    width: 50%;
+    margin-top:5%;
+    margin-left: -21%;
+    position: absolute;
+}
+.business-analyst-class .date-price {
+    padding-bottom: 2%;
+    box-shadow: 0 .5px 0 0;
+    font-family: compactTextRegular;
+}
+.business-analyst-class .date-price .date {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.business-analyst-class .date-price .date p#date {
+    font-weight: bold;
+    font-size: 16pt;
+}
+.business-analyst-class .date-price .date p#description {
+    margin-top: .5%;
+    color:#ec2e2e;
+}
+.business-analyst-class .date-price .price {
+    text-align: left;
+    margin-left: 58%;
+    margin-top: -4%;
+}
+.business-analyst-class .date-price .price p#price {
+    font-weight: bold;
+    font-size: 16pt;
+}
+.business-analyst-class .date-price .price p#description {
+    color:gray;
+}
+.business-analyst-class .date-price .price button#grab-seat {
+    background: #0dbfff;
+    margin-left: 18%;
+    margin-top: -3.1%;
+    padding: 1% 1.5%;
+    position: absolute;
+    border:none;
+    border-radius: 10px;
+}
+.business-analyst-class .date-price .price button#grab-seat a {
+    text-decoration: none;
+    color:white;
+}
+.business-analyst-class .date-price .price button#grab-seat:hover {
+    cursor: pointer;
+    background: #ec2e2e;
+}
+.business-analyst-class .class-description {
+    padding: 5% 15%;
+}
+.business-analyst-class .class-description .description-top {
+    text-align: justify;
+    width: 60%;
+}
+.business-analyst-class .class-description .description-top p#title {
+    color:#ec2e2e;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.business-analyst-class .class-description .description-top p#description {
+    margin-top: 2%;
+    font-size: 16pt;
+    font-weight: 300;
+}
+.business-analyst-class .class-description .preparation {
+    text-align: justify;
+    margin-top: 5%;
+}
+.business-analyst-class .class-description .preparation p#title {
+    color: #ec2e2e;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.business-analyst-class .class-description .preparation ul#list {
+    margin-top: 1.5%;
+    list-style: none;
+    font-size: 14pt;
+}
+.business-analyst-class .class-description .preparation ul#list li::before {
+    line-height: 30px;
+    content: "\2022";
+    color: #0dbfff;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.business-analyst-class .tutor {
+    margin-top: 2%;
+    text-align: justify;
+    padding-bottom: 2%;
+}
+.business-analyst-class .tutor p#title {
+    color: #ec2e2e;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.business-analyst-class .tutor .tutor-description img#tutor {
+    width: 25%;
+    margin-left: -6%;
+}
+.business-analyst-class .tutor .tutor-description p#name {
+    margin-top: -16%;
+    margin-left: 18%;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.business-analyst-class .tutor .tutor-description p#job-title {
+    margin-top: 2%;
+    margin-left: 18%;
+    font-size: 14pt;
+}
+.business-analyst-class .tutor .tutor-description img#social-media {
+    width: 5%;
+    margin-top: -5%;
+    margin-left: 36%;
+    position: absolute;
+}
